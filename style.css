@@ -1,0 +1,42 @@
+#container{  
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(pngegg.png) no-repeat;
+    background-size: 100%;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 355px;
+}
+
+#hour, #mnt, #sec{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25.2%;
+    left: 48.99%;
+    opacity: 1;  
+}
+#mnt{
+    width: 1.6%;
+    height: 30%;
+    top: 20.2%;
+    left: 49.2%;
+    opacity: 1; 
+    background: blue; 
+}
+#sec{
+    width: 1%;
+    height: 40%;
+    top: 10.3%;
+    left: 49.47%;
+    opacity: 1; 
+    background: red;
+    
+}
